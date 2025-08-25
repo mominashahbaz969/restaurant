@@ -1,0 +1,18 @@
+CREATE TABLE Restaurant (
+    Restaurant_ID NUMBER PRIMARY KEY,
+    Restaurant_Name VARCHAR2(100),
+    City VARCHAR2(50),
+    Cuisine_Type VARCHAR2(50),
+    Rating NUMBER(2,1)
+);
+
+INSERT INTO Restaurant (Restaurant_ID, Restaurant_Name, City, Cuisine_Type, Rating) VALUES 
+(1, 'Monal', 'Islamabad', 'Pakistani', 4.8),
+
+
+ (2, 'Salt Bae Steakhouse', 'Karachi', 'Steakhouse', 4.6),
+
+
+ (3, 'Butt Karahi', 'Lahore', 'Desi Food', 4.5),
+
+(4, 'Cafe Aylanto', 'Karachi', 'Continental', 4.7);
